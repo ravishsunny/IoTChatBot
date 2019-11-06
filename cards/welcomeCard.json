@@ -1,0 +1,51 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Image",
+      "url": "https://www.softwareag.com/corporate/images/SAG_Corporate_Logo_Mar19_tcm389-177649.jpg",
+      "size": "stretch"
+    },
+    {
+      "type": "TextBlock",
+      "spacing": "medium",
+      "size": "default",
+      "weight": "bolder",
+      "text": "Welcome to IBot!",
+      "wrap": true,
+      "maxLines": 0
+    },
+    {
+      "type": "TextBlock",
+      "size": "default",
+      "isSubtle": "true",
+      "text": "It is an AI based Bot integrated with cumulocity IOT.",
+      "wrap": true,
+      "maxLines": 0
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.OpenUrl",
+      "title": "Get an overview of cumulocity IoT",
+      "url": "https://www.softwareag.cloud/site/product/cumulocity-iot.html"
+    },
+    {
+      "type": "Action.OpenUrl",
+      "title": "Go to documentation",
+      "url": "https://www.softwareag.cloud/site/dev-center/cumulocity-iot.html#/"
+    },
+    {
+      "type": "Action.OpenUrl",
+      "title": "Support",
+      "url": "https://empower.softwareag.com/"
+    },
+    {
+      "type": "Action.OpenUrl",
+      "title": "Developed by",
+      "url": "https://iwiki.eur.ad.sag/display/RNDIBOB/AI-based+Chat+Bot+integrated+with+Cumulocity"
+    }
+  ]
+}
